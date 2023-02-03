@@ -39,3 +39,6 @@ def logout(request):
     auth.logout(request)
     return redirect('/login')
 
+def yourinformation(request):
+    return render(request,'Your_information.html')
+

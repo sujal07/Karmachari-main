@@ -8,7 +8,8 @@ urlpatterns = [
     path('', views.home),
     path('login',views.login),
     path('signup',views.signup),
-    path('logout',views.logout,name='logout') 
+    path('logout',views.logout,name='logout'),
+    path('yourinformation',views.yourinformation)
 ]
 
 urlpatterns=urlpatterns+static(settings.MEDIA_URL,
